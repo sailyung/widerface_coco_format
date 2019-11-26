@@ -1,17 +1,17 @@
 # widerface_coco_format
-converting widerface annociations to coco format
-'''
-data/widerface/
----------Wider_train/
---------------------0--Parade/
-                        -
-                        -
-                        -
----------Wider_val/
--------------------0--Parade/
---------annnociations/
----------------------XXXX.json
-                        -
-                        -
-                        -
-'''
+the directory tree should look like the following: 
+```shell
+data
+└── widerface
+    ├── annotations
+    |   ├── XXX.json    
+    ├── WIDER_train
+    │   └── images
+    │       ├── 0--Parade
+    │       └── ...
+    └── WIDER_val
+        └── images
+            ├── 0--Parade
+            ├── ...
+```
+
